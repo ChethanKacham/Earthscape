@@ -8,6 +8,8 @@ const withPWA = require("next-pwa")({
 
 module.exports = withBundleAnalyzer(
   withPWA({
+    output: "export",
+    basePath: "/Earthscape",
     reactStrictMode: true,
     images: {
       remotePatterns: [
