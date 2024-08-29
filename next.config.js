@@ -7,8 +7,8 @@ const withPWA = require("next-pwa")({
 });
 
 const nextConfig = {
-  // output: "export", // <=== enables static exports
-  // basePath: "/Earthscape",
+  output: "export", // <=== enables static exports
+  basePath: "/Earthscape",
   reactStrictMode: true,
   images: {
     remotePatterns: [
