@@ -20,11 +20,11 @@
 .DS_Store
 *.pem
 
-# workflows
-# Ignore publish.yml in the .github/workflows folder
-.github/workflows/publish.yml
-# Ignore setup-node folder and everything inside it
-.github/workflows/setup-node/
+# # workflows
+# # Ignore publish.yml in the .github/workflows folder
+# .github/workflows/publish.yml
+# # Ignore setup-node folder and everything inside it
+# .github/workflows/setup-node/
 
 
 # debug
