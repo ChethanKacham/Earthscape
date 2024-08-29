@@ -21,7 +21,7 @@
 *.pem
 
 # workflows
-/.github/workflows/
+/.github
 
 # debug
 npm-debug.log*
